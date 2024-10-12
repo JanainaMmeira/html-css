@@ -1,11 +1,30 @@
-<<<<<<< HEAD
-# Curso de html-css
-Curso de HTML5 e CSS3 do CursoemVideo!
+<h1 align="center"> Exercicios e Desáfios HTML5 e CSS3 do Curso em Video </h1>
 
- Links 
-=======
-# html-css
- Atividades do Curso de HTML5 e CSS3 do CursoemVideo!
+<p align="center">
+Projeto está em andamento no Curso de HTML5 e CSS3, promovido pelo Curso em Video para ensino de tecnologias WEB. <br/>
+<a href="https://www.cursoemvideo.com">Estude esse projeto em formato de vídeo clicando aqui.</a>
+</p>
 
- 
->>>>>>> 485f6b0023a42e0528b0d7022359f823d359e959
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<br>
+
+## 🖋️ Exercícios e Desáfios Concluidos
+<ul>
+ <li><a href="#">Executar exercicios </a></li>
+ <li><a href="#">Executr desafios</a></li>
+ </ul>
+
+
+## 🚀 Tecnologias
+
+As aulas estão sendo desenvolvidas com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
