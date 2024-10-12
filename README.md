@@ -1,4 +1,4 @@
-<h1 align="center"> Exercicios e Desáfios HTML e CSS do Curso em Video </h1>
+<h1 align="center"> Exercicios e Desáfios HTML5 e CSS3 do Curso em Video </h1>
 
 <p align="center">
 Projeto está em andamento no Curso de HTML5 e CSS3, promovido pelo Curso em Video para ensino de tecnologias WEB. <br/>
