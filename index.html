@@ -41,15 +41,76 @@
             text-shadow: #D9B70D 10px;
             color: #BF8D30;
         }
+
+        a {
+            text-decoration: none;
+        }
+
+        main {
+            text-align: center;
+            color: var(--cor02);
+            font-size: 18px;
+            
+        }
+
+        #t01 {
+            position: center top;
+        }
         
-        #m1 {
-            list-style-position: outside;
-       /* columns: 3;*/
+        #m01 {
+            list-style-position: inside;
+            position: center;
+            border: 1px solid var(--cor05);
+            border-radius: 10px;
+            columns: 3;
         }
         
         #m2 {
-            columns: 2;
+            columns: 3;
+            border: 5px solid red;
+            list-style-position: inside;
+            position: center;
+            border: 1px solid var(--cor05);
+            border-radius: 10px;
+            
         }
+
+        #md02 {
+            columns: 3;
+            border: 5px solid red;
+            list-style-position: inside;
+            position: center;
+            border: 1px solid var(--cor05);
+            border-radius: 10px;
+        }
+
+        #df01 {
+            columns: 3;
+            border: 5px solid red;
+            list-style-position: inside;
+            position: center;
+            border: 1px solid var(--cor05);
+            border-radius: 10px;
+
+        }
+
+        #df02 {
+            columns: 3;
+            border: 5px solid red;
+            list-style-position: inside;
+            position: center;
+            border: 1px solid var(--cor05);
+            border-radius: 10px;
+
+        }
+       
+        footer {
+            font-style: var(--font2);
+            color: var(--cor02);
+            text-align: center;
+            text-decoration: none;
+        }
+
        
         </style>
 </head>
@@ -57,14 +118,16 @@
   <header>
     <h1> HTML5 E CSS3</h1>
   </header>
-        
-    <h2>⚜️Exercicios</h2>
+    <main>
+    <h2 id="t01">⚜️Exercicios</h2>
     Aqui você pode consultar os exercicios criados durante o Curso de HTML5 e CSS3
     <br>
+
     <H3>Modulo 1 - HTML5</H3>
     
+    
     <nav>
-        <ol id="m1">
+        <ol id="m01">
             <li>
                 <a href="exercicios/ex001/index..html" target="_blank">Executar exercicio 001</a>
             </li>
@@ -121,7 +184,7 @@
             <a href="exercicios/ex016/index.html" target="_blank">Executar exercicio 016</a>
     
         </li>
-        
+        </ol>
         <h2>Modulo 2 - CSS</h2>
 
         </ol>
@@ -174,8 +237,8 @@
     <h1>⚜️ Desafios</h1>
     <h2>Modulo 1</h2>
 
-    <nav class="desafios">
-        <ol>
+    <nav>
+        <ol id="df01">
             <li><a href="desafios/d001/index.html">Desafio das Mensagens</a></li>
             <li><a href="desafios/d002/index.html">Desafio das Imagens</a></li>
             <li><a href="desafios/d003/index.html">Desafio Mapa Mundi</a></li>
@@ -186,13 +249,15 @@
             <li><a href="desafios/d008/index.html">Desafio Naveção</a></li>
             <li><a href="desafios/d009/index.html">Desafio Videos</a></li>
         </ol>
-    </nav>
+
         <h2>Modulo 2</h2>
-        <nav>
-            <ol start="10">
+
+            <ol start="10" id="df02">
                 <li><a href="desafios/d010/">Desafio Android</a></li>
             </ol>
         </nav>
+    </main> 
+    <footer>Site criado por<a href="https://github.com/JanainaMmeira" target="_blank"> Janaína Meira</a></footer>
     
 </body>
 </html>
