@@ -9,7 +9,9 @@
 
         body {
             background-color: black;
+            
         }
+
         div.bloco {
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
@@ -17,10 +19,17 @@
             border-radius: 5px;
             margin: 18px;
             height: 278px;
+
             
         }
-        
-              div#b1 {
+
+        #section {
+            position: absolute;
+
+            transform: translate(-50%, -50%);
+        }
+
+        div#b1 {
             background-position: left top;
         
         }
@@ -40,14 +49,13 @@
 
 </head>
 <body>
-    <div class="bloco" id="b1">
-
-    </div>
-    <div class="bloco" id="b2">
-
-    </div>
-    <div class="bloco" id="b3">
-
-    </div>
+    <section>
+        <div class="bloco" id="b1">
+        </div>
+        <div class="bloco" id="b2">
+        </div>
+        <div class="bloco" id="b3">
+        </div>
+    </section>
 </body>
 </html>
