@@ -14,11 +14,12 @@ Projeto está em andamento no Curso de HTML5 e CSS3, promovido pelo Curso em Vid
 
 <br>
 
-<h2>Exercícios e Desáfios Concluidos</h2>
+## 🖋️ Exercícios e Desáfios Concluidos
 <ul>
  <li><a href="#">Executar exercicios </a></li>
  <li><a href="#">Executr desafios</a></li>
  </ul>
+
 
 ## 🚀 Tecnologias
 
@@ -27,5 +28,3 @@ As aulas estão sendo desenvolvidas com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 - Git e Github
-
-## 💻 Projeto Janaína
