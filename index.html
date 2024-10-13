@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,111 +9,159 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
-
     <title>Exercicios e Desafios</title>
 
     <style>
 
         :root {
-            --cor01: #99B4BF;
-            --cor02: #253C59;
-            --cor03: #2D4B73;
+            --cor01: #c5e6f3d0;
+            --cor02: #07203f;
+            --cor03: #093978c5;
             --cor04: #D9B70D;
             --cor05: #BF8D30;
             --font1: "Bebas Neue", sans-serif;
             --font2: "Patrick Hand SC", cursive;
-
-               }
+              }
 
         body {
             font-family: var(--font2);
-            line-height: 2em;
+            font-size: 3em;
             background-color: var(--cor01);
-        }
-
-        header {
-            font-family:var(--font1);
-            text-align: center;
-            font-size: 35px;
-            text-shadow: #D9B70D 10px;
-            color: var(--cor05)
+            height: 100vh;
+            letter-spacing: .2rem;
+            
 
             
         }
 
-        a {
-            text-decoration: none;
-        }
-        li {
-            color: var(--cor03);
+        header {
+            padding: 10px;
+            background-image: url('imagens/fundo2.jpeg');
+            background-position: center center;
+            background-repeat: no-repeat;      
+            background-size: cover;     
+            border-radius: 15px;
+            color: var(--cor04);
+            text-align: center;
+            text-indent: 2em;
+            font-size: 35px;         
         }
 
         main {
             text-align: center;
+            font-family: var(--font2);
             color: var(--cor02);
             font-size: 18px;
+        
+        }
+
+             
+        #tt1 {
+          
+            font-weight: bold;
+            font-family:var(--font1);
             
+            text-shadow: 3px 2px #BF8D30;
+            color: var(--cor04);
+            font-size: 150px;
+
         }
 
         #t01 {
+            margin: 10px;
+            padding: 10px;
             position: center top;
         }
-        
+
+        h1,h2 {
+            color: var(--cor05);
+        }
+
+        p {
+            color: var(--cor02);
+        }
+
+               
         #m01 {
             list-style-position: inside;
             position: center;
-            border: 1px solid var(--cor05);
-            border-radius: 10px;
             columns: 3;
         }
         
         #m2 {
             columns: 3;
-            border: 5px solid red;
             list-style-position: inside;
             position: center;
-            border: 1px solid var(--cor05);
-            border-radius: 10px;
+            
             
         }
 
         #md02 {
             columns: 3;
-            border: 5px solid red;
             list-style-position: inside;
             position: center;
-            border: 1px solid var(--cor05);
-            border-radius: 10px;
+          
         }
 
         #df01 {
             columns: 3;
-            border: 5px solid red;
+            
             list-style-position: inside;
             position: center;
-            border: 1px solid var(--cor05);
-            border-radius: 10px;
-
+            
         }
 
         #df02 {
             columns: 3;
-            border: 5px solid red;
             list-style-position: inside;
             position: center;
-            border: 1px solid var(--cor05);
             border-radius: 10px;
 
         }
        
-        footer {
+        #f1 {
             font-style: var(--font2);
-            color: var(--cor02);
+            color: white;
             text-align: center;
             text-decoration: none;
+
+            background-color: #2D4B73;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: var(--cor02);
+        }
+
+       
+
+        li {
+            color: var(--cor03);
+            text-decoration: none;
+        }
+        a:visited {
+            color: black;
+        }
+
+
+        img {
+            background-size: cover;     
+            border-radius: 70%;
+
+        }
+
+        footer > a {
+            color: white;
+        }
+
+        footer a:visited {
+            color: white;
+            text-align: center;
+            text-indent: 1.2em;
+           
         }
 
        
@@ -121,14 +169,18 @@
 </head>
 <body>
   <header>
-    <h1> HTML5 E CSS3</h1>
+    <h1 id="tt1"> HTML5 E CSS3</h1>
+
+
   </header>
     <main>
-    <h2 id="t01">⚜️Exercicios</h2>
-    Aqui você pode consultar os exercicios criados durante o Curso de HTML5 e CSS3
+    <h1 id="t01"> 📝EXERCICIOS</h1>
+    <p>Esta página foi criada para consulta e execução dos exercicios criados durante o curso de HTML5 E CSS3 do <a href="https://www.cursoemvideo.com/" target="_blank" rel="external">Curso em Video</a> com <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">Profº Guanabara</a>.</p>
+
+    <p>Aqui você também pode executar os desafios e Projetos que criei.</p>
     <br>
 
-    <H3>Modulo 1 - HTML5</H3>
+    <h2>Modulo 1 - HTML5</h2>
     
     
     <nav>
@@ -239,7 +291,7 @@
 
     </0l>
     </nav>
-    <h1>⚜️ Desafios</h1>
+    <h1>💡 DESAFIOS</h1>
     <h2>Modulo 1</h2>
 
     <nav>
@@ -261,8 +313,16 @@
                 <li><a href="desafios/d010/">Desafio Android</a></li>
             </ol>
         </nav>
+
+        <h2> 🎯 PROJETOS</h2>
+        <li><a href="desafios/d010/index.html" target="_blank" rel="prev">História do Android - Irina Blok
+        </a></li>
+        <img src="imagens/android.png" alt="Logo do Android"></
+        
     </main> 
-    <footer>Site criado por<a href="https://github.com/JanainaMmeira" target="_blank"> Janaína Meira</a></footer>
+    <footer id="f1">Site criado por<a href="https://github.com/JanainaMmeira" target="_blank"> Janaína Meira®️ </a></footer>
+
+
     
 </body>
 </html>
