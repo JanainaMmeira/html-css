@@ -42,6 +42,8 @@ section {
     padding-bottom:  10vh;    /* Isto faz com que ganhe espaço entre as sections*/
     line-height: 2em;
 
+    padding-left: 30px;
+
 }
 
 section.normal {
@@ -54,6 +56,11 @@ section.imagem {
     color: white;
 }
 
+section.imagem p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.459);
+
+}
 footer {
     background-color: black;
     color: white;
