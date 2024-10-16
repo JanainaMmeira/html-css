@@ -31,9 +31,8 @@ header {
 head > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-     /* text-transform: uppercase; - para transformar todas as letras em maiuscula*/
-     font-family: var(--font2);
-     font-size: 10vh;
+    font-family: var(--font2);
+    font-size: 10vh;
 }
 
 header > p {
