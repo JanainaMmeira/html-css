@@ -8,7 +8,7 @@
         display: block;
     }
     menu > ul > li {
-        display:  inline-block;
+        display:  inline-flex;
     }
 
     main {
