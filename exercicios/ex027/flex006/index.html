@@ -10,14 +10,7 @@
         background-color: aquamarine;
         
         display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-      
-
-        align-content: center;
-        
-
-        height: 800px;
+       flex-flow: row wrap;
       
 }
     
@@ -26,25 +19,54 @@
         border: 1px solid red;
         text-align: center;
 
-        padding: 80px;
+        padding: 20px;    
 
-      
+    }
 
+    div#i1 {
+        order: 0;
+    }
+    div#i2 {
+        order: -2;
+    }
+    div#i3 {
+        order: 4;
+    }
+    div#i4 {
+        order: 8;
+    }
+    div#i5 {
+        order: 2;
+    }
+    div#i6 {
+        order: 0;
+    }
+    div#i7 {
+        order: 2;
+    }
+    div#i8 {
+        order: -5;
+    }
+    div#i9 {
+        order: 0;
+    }
+    div#i10 {
+        order: -4;
     }
    </style>
 </head>
 <body>
     <div class="container">
-        <div class="item"> teste A</div>
-        <div class="item">teste B</div>
-        <div class="item">teste C</div>
-        <div class="item">teste D</div>
-        <div class="item">teste E</div>
-        <div class="item">teste F</div>
-        <div class="item"> teste G</div>
-        <div class="item">teste H</div>
-        <div class="item">teste I</div>
-        <div class="item">teste J</div>
+        <div class="item" id="i1"> teste A</div>
+        <div class="item" id="i2">teste B</div>
+        <div class="item" id="i3">teste C</div>
+        <div class="item" id="i4">teste D</div>
+        <div class="item" id="i5">teste E</div>
+        <div class="item" id="i6">teste F</div>
+        <div class="item" id="i7"> teste G</div>
+        <div class="item" id="i8">teste H</div>
+        <div class="item" id="i9" >teste I ></div>
+        <div class="item" id="i10">teste J</div>
     </div>
 </body>
 </html>
