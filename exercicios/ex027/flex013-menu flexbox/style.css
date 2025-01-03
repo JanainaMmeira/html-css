@@ -16,20 +16,44 @@ body {
 }
 
 header {
-    background-color: cyan;
+    background-color: rgb(104, 100, 100);
     color: white;
-
     padding: 10px;
-
     text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
     border: 1px solid red;
+    flex: 0 0 200px;
 }
 
 header > nav {
     border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: end;
+}
+
+header > nav > a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
 }
 
 main {
