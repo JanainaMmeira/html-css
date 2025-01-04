@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*CONFIGURAÇÃO PRINCIPAL*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,7 +14,6 @@ body {
     background-color: lightcyan;
     height: 100vh;
     width: 100vw;
-    
 }
 
 header {
@@ -28,16 +29,20 @@ header {
 }
 
 header > h1 {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+
+   
 }
 
 header > nav {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     flex-flow: row wrap;
 
-    justify-content: end;
+    justify-content: flex-end;
+    
 }
 
 header > nav > a {
@@ -63,5 +68,4 @@ main {
 
     border-radius: 10px;
     box-shadow:  2px 2px 3px gray;
-
 }
